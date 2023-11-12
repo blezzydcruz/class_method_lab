@@ -1,15 +1,15 @@
 public class Computer {
 
-    int computerStorage;
-    String printerModel;
+    private int computerStorage;
+    private String printerModel;
 
     public Computer(int computerStorage) {
         this.computerStorage = computerStorage;
-        this.printerModel = null;   //printer isn't initially connected
+        this.printerModel = null;   //printer isn't initially connected, can use `null` or `""`
     }
 
     public int getComputerStorage() {
-        return computerStorage;
+        return computerStorage;     //instead of `computerStorage` or `this.computerStorage`
     }
 
     public void addStorage(int newStorage) {

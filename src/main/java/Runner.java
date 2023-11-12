@@ -50,6 +50,7 @@ public class Runner {
         // 5. Write a method to print a message.
         // To test this works *without* a printer too you can comment out the code for question 4
 //        computer.printMessage("Hello World!");
+
     }
 
     public static void shoppingTrolleyDemo(){
